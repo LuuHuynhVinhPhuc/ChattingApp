@@ -11,7 +11,6 @@ namespace MessageApp.Controllers;
 [Authorize]
 [RemoteService(Name = "Chat")]
 [Route("api/app/chat")]
-[ValidateAntiForgeryToken]
 public class ChatController : MessageAppController, IChatAppService
 {
     private readonly IChatAppService _chatAppService;
