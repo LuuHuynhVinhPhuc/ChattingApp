@@ -1,0 +1,23 @@
+<Solution>
+    <Configurations>
+        <Platform Name="Any CPU" />
+    </Configurations>
+    <Folder Name="/src/">
+        <Project Path="src/MessageApp.Domain/MessageApp.Domain.csproj" />
+        <Project Path="src/MessageApp.Application/MessageApp.Application.csproj" />
+        <Project Path="src/MessageApp.EntityFrameworkCore/MessageApp.EntityFrameworkCore.csproj" />
+        <Project Path="src/MessageApp.Domain.Shared/MessageApp.Domain.Shared.csproj" />
+        <Project Path="src/MessageApp.Application.Contracts/MessageApp.Application.Contracts.csproj" />
+        <Project Path="src/MessageApp.HttpApi/MessageApp.HttpApi.csproj" />
+        <Project Path="src/MessageApp.HttpApi.Client/MessageApp.HttpApi.Client.csproj" />
+        <Project Path="src/MessageApp.HttpApi.Host/MessageApp.HttpApi.Host.csproj" />
+        <Project Path="src/MessageApp.DbMigrator/MessageApp.DbMigrator.csproj" />
+    </Folder>
+    <Folder Name="/test/">
+        <Project Path="test/MessageApp.Application.Tests/MessageApp.Application.Tests.csproj" />
+        <Project Path="test/MessageApp.EntityFrameworkCore.Tests/MessageApp.EntityFrameworkCore.Tests.csproj" />
+        <Project Path="test/MessageApp.TestBase/MessageApp.TestBase.csproj" />
+        <Project Path="test/MessageApp.Domain.Tests/MessageApp.Domain.Tests.csproj" />
+        <Project Path="test/MessageApp.HttpApi.Client.ConsoleTestApp/MessageApp.HttpApi.Client.ConsoleTestApp.csproj" />
+    </Folder>
+</Solution>

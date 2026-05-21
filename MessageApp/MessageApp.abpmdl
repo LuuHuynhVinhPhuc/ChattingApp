@@ -1,0 +1,109 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "5.4.0",
+      "isInstalled": true,
+      "creationTime": "05/21/2026 06:15:46 +00:00"
+    },
+    "Volo.Abp.Account": {
+      "version": "10.4.0",
+      "isInstalled": true,
+      "creationTime": "05/21/2026 06:15:46 +00:00"
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "10.4.0",
+      "isInstalled": true,
+      "creationTime": "05/21/2026 06:15:46 +00:00"
+    },
+    "Volo.Abp.Identity": {
+      "version": "10.4.0",
+      "isInstalled": true,
+      "creationTime": "05/21/2026 06:15:46 +00:00"
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "10.4.0",
+      "isInstalled": true,
+      "creationTime": "05/21/2026 06:15:46 +00:00"
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "10.4.0",
+      "isInstalled": true,
+      "creationTime": "05/21/2026 06:15:46 +00:00"
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "10.4.0",
+      "isInstalled": true,
+      "creationTime": "05/21/2026 06:15:46 +00:00"
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "10.4.0",
+      "isInstalled": true,
+      "creationTime": "05/21/2026 06:15:46 +00:00"
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "MessageApp.Application": {
+      "path": "src/MessageApp.Application/MessageApp.Application.abppkg",
+      "folder": "src"
+    },
+    "MessageApp.Application.Tests": {
+      "path": "test/MessageApp.Application.Tests/MessageApp.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "MessageApp.Domain.Shared": {
+      "path": "src/MessageApp.Domain.Shared/MessageApp.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "MessageApp.Application.Contracts": {
+      "path": "src/MessageApp.Application.Contracts/MessageApp.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "MessageApp.HttpApi": {
+      "path": "src/MessageApp.HttpApi/MessageApp.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "MessageApp.HttpApi.Client": {
+      "path": "src/MessageApp.HttpApi.Client/MessageApp.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "MessageApp.EntityFrameworkCore.Tests": {
+      "path": "test/MessageApp.EntityFrameworkCore.Tests/MessageApp.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "MessageApp.EntityFrameworkCore": {
+      "path": "src/MessageApp.EntityFrameworkCore/MessageApp.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "MessageApp.TestBase": {
+      "path": "test/MessageApp.TestBase/MessageApp.TestBase.abppkg",
+      "folder": "test"
+    },
+    "MessageApp.Domain.Tests": {
+      "path": "test/MessageApp.Domain.Tests/MessageApp.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "MessageApp.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/MessageApp.HttpApi.Client.ConsoleTestApp/MessageApp.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "MessageApp.DbMigrator": {
+      "path": "src/MessageApp.DbMigrator/MessageApp.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "MessageApp.HttpApi.Host": {
+      "path": "src/MessageApp.HttpApi.Host/MessageApp.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "MessageApp.Domain": {
+      "path": "src/MessageApp.Domain/MessageApp.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
